@@ -20,15 +20,6 @@ pipeline {
                 }
             }
         }
-        stage('Create docker image'){
-            steps{
-                script{
-                    //sh "docker build ${WORKSPACE}/auto -t webapp"
-                    //sh "docker run -d webapp"
-                    //sh "docker exec -it webapp "df -h > ~/proc""
-                }
-            }
-        }
         
     }
 
